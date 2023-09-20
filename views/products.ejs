@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <%- include('partials/navbar') %>
+    <br>
+    <div class="container">
+        <h1>Ürünler</h1>
+        <div class="row">
+            <% urunler.forEach(urun=> { %>
+                <% if (urun.isActive && urun.isHome) { //urun.price>3500 && %>
+                    <%- include('partials/product',urun) %>
+                <% } %>
+            <% }) %>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+expressjs
+
+npm init --yes //package.json oluşturur
+
+npm i nodemon -g // global yükler otomatik yenileme tekrar tekrar server başlatmaya gerek kalmaz
+npm i nodemon //otomatik yenileme tekrar tekrar server başlatmaya gerek kalmaz
+
+npm list //paketler
+npm list -g //tüm paketler
+
+powershell yönetici 
+Get-ExecutionPolicy   sonucu Restricted geldi
+
+Set-ExecutionPolicy Unrestricted 
+
+Do you want to change the execution policy?
+[Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "N"): Y
+
+ Y 
+
+ Get-ExecutionPolicy  sonucu  Unrestricted
+
+
+ npm i ejs@3.1.8
+
+ EJS language support
+npm install bootstrap@v5.3.2
+
